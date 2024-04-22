@@ -10,8 +10,8 @@ spring:
     config:
       enabled: true
   config:
-    import: "optional:configserver:http://config-server:6055"
-    #import: "optional:configserver:http://localhost:6055" #only for local
+    #import: "optional:configserver:http://config-server:6055"
+    import: "optional:configserver:http://localhost:6055"
 
 management:
   endpoints:
