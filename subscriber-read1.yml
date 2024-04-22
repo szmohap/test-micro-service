@@ -3,7 +3,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl:
-      defaultZone: http://localhost:6059/eureka # value will get overriden if passed from external config
+      defaultZone: http://localhost:6059/eureka # value will get overriden if passed from external confi
 
 spring:
   cloud:
